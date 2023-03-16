@@ -1,0 +1,32 @@
+{
+    "name": "hp360/05_composer_init",
+    "description": "Ejemplo",
+    "type": "library",
+    "require": {
+        "nesbot/carbon": "3.x-dev"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "10.1.x-dev"
+    },
+    "license": "MIT",
+    "files": [
+        "src/file1.php",
+        "src/file2.php"
+    ],
+    "classmap": [
+        "database/seeds",
+        "database/factories"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Text\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Luis Padilla",
+            "email": "alexloudog@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
